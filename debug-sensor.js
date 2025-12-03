@@ -11,7 +11,7 @@ try {
     // Common pins to test
     // If you are using GPIO 4 (Physical Pin 7), use 4.
     const TEST_PINS = [4, 7, 17, 27, 22];
-    const SENSOR_TYPE = 11; // DHT22
+    const SENSOR_TYPE = 22; // DHT22
 
     console.log(`Testing Sensor Type: DHT${SENSOR_TYPE}`);
 
