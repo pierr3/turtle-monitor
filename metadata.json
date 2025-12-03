@@ -1,0 +1,4 @@
+{
+  "name": "PiTemp Monitor",
+  "description": "A responsive IoT dashboard for monitoring temperature and humidity sensors on a Raspberry Pi, featuring historical snapshots and AI-powered environment analysis."
+}
