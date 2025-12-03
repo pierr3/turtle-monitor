@@ -22,7 +22,7 @@ const app = express();
 // --- CONFIGURATION ---
 const PORT = 3000;
 const SENSOR_TYPE = 22; // 11 for DHT11, 22 for DHT22
-const SENSOR_PIN = 4;   // GPIO 4
+const SENSOR_PIN = 7;   // GPIO 4
 const HISTORY_FILE = path.join(__dirname, 'history.json');
 const HISTORY_SAVE_INTERVAL = 10 * 60 * 1000; // Save to file every 10 minutes
 const SENSOR_READ_INTERVAL = 5000; // Read sensor every 5 seconds
