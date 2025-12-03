@@ -20,7 +20,7 @@ const __dirname = path.dirname(__filename);
 const app = express();
 
 // --- CONFIGURATION ---
-const PORT = 80;
+const PORT = 3000;
 const SENSOR_TYPE = 22; // 11 for DHT11, 22 for DHT22
 const SENSOR_PIN = 4;   // GPIO 4 (Physical Pin 7)
 const HISTORY_FILE = path.join(__dirname, 'history.json');
