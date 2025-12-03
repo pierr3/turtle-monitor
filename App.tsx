@@ -171,7 +171,7 @@ const App: React.FC = () => {
       </main>
 
       <footer className="text-center py-10 text-stone-400 text-[11px] uppercase font-black tracking-widest opacity-60">
-        <p>Keeping turtles happy since 2024</p>
+        <p>Keeping turtles happy since 2025</p>
       </footer>
     </div>
   );

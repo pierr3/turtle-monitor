@@ -12,7 +12,7 @@ interface LiveMonitorProps {
 const LiveMonitor: React.FC<LiveMonitorProps> = ({ current, isConnected, isSimulated }) => {
   // Use a reliable cute turtle image URL. 
   // You can replace this src with a local path like "/turtle.png" if you host the file.
-  const TURTLE_IMG = "https://cdn-icons-png.flaticon.com/512/7292/7292483.png";
+  const TURTLE_IMG = "/tortoise.png";
 
   if (!current) {
     return (
