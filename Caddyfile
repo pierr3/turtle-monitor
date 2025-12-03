@@ -1,0 +1,7 @@
+turtle.local {
+    # Proxy all traffic to your Node.js app running on port 3000
+    reverse_proxy localhost:3000
+    
+    # Caddy automatically enables HTTPS for this domain
+    # It will generate and manage local certificates for .local domains
+}
